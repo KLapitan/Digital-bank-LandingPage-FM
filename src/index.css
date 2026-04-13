@@ -1,1 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
 @import "tailwindcss";
+
+@theme {
+  /* primary */
+  --color-PBlue950: #2D314D;
+  --color-PGreen500: #32D25D;
+  --color-PCyan400: #2CB6D8;
+
+  /* neutral */
+
+  --color-NGray600: #9698A6;
+  --color-NGray100: #F3F4F6;
+  --color-NGray50: #FAFAFA;
+  --color-NWhite: #FFFFFF;
+
+  --font-PublicSans: "Public Sans", sans-serif;
+}
