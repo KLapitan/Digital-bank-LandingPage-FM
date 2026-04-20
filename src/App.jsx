@@ -1,6 +1,7 @@
 import { useState } from "react"
 import DBankNav from "./Components/DBank-NavSection";
 import DBankIntro from "./Components/DBank-IntroSection";
+import DBankSerivces from "./Components/DBank-Services";
 
 const DBLinks =["Home", "About" , "Contact", "Blog", "Careers"]
 const App = () => {
@@ -17,6 +18,7 @@ return(
 <DBankNav links={DBLinks} showLinks={showLinks} onOpen={handleShowLinks}/>
 <DBankIntro showLinks={showLinks}/>
 
+<DBankSerivces/>
 
 </>
 
