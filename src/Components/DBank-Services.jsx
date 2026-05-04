@@ -1,9 +1,9 @@
 const DBankSerivces =() => {
 return(
-<section className="h-auto p-2 bg-NGray100 flex flex-col items-center justify-center font-PublicSans    ">
+<section className="h-auto p-2 bg-NGray100 flex flex-col items-center justify-center font-PublicSans   sm:border ">
 
-<div className="lg:flex  lg:items-start lg:-ml-154">
-  <div className=" flex flex-col gap-3 items-center w-auto mt-10   lg:gap-3 lg:items-start ">
+<div className="lg:flex  lg:items-start lg:-ml-154 sm:mb-7">
+  <div className=" flex flex-col gap-3 items-center w-auto mt-10  lg:gap-3 lg:items-start ">
   <h2 className="text-3xl tracking-tight w-xs p-2 text-center lg:text-left lg:tracking-normal lg:w-auto">Why choose Digitalbank?</h2>
   <p className="text-center text-sm tracking-tight w-xs p-2 text-NGray600 leading-4 lg:text-left  lg:w-lg lg:tracking-normal"> We leverage Open Banking to turn your bank account into your financial hub. Control 
   your finances like never before.</p>
@@ -12,8 +12,8 @@ return(
 </div>
 
 {/* online banking */}
-{/* large view row */}
-<div className="lg:flex lg:flex-row   lg:gap-18 lg:mt-10">
+{/* large view 2 grid */}
+<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-4 gap-4 ">
 
     <div className=" flex flex-col gap-3 w-auto items-center mt-8 lg:items-start ">
       <picture>
