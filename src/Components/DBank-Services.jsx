@@ -13,7 +13,7 @@ return(
 
 {/* online banking */}
 {/* large view 2 grid */}
-<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-4 gap-4 ">
+<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-4 gap-4 lg:gap-x-16  ">
 
     <div className=" flex flex-col gap-3 w-auto items-center mt-8 lg:items-start ">
       <picture>
