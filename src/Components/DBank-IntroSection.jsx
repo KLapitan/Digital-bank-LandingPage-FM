@@ -27,7 +27,7 @@ return(
                             <h2 className=" text-3xl w-75 border lg:text-5xl text-center font-light tracking-tight text-PBlue950 lg:text-left lg:w-100 ">Next generation digital banking</h2>
 
                             <p className="text-center   text-md p-2 tracking-tight leading-5 text-NGray600 lg:text-left lg:w-95 ">Take your financial life online. Your Digitalbank account will be a one-stop-shop 
-                              for spending, saving, budgeting, investing, and much more.</p>  
+                              for spending, saving, budgeting, investing, ands much more.</p>  
                       </div>
 
                 </div>  
