@@ -7,21 +7,23 @@ const DBankNav = ({links ,showLinks ,onOpen}) => {
 return(
 <>
 <nav className="h-auto relative z-50  ">
-  <section className="h-16 border flex flex-row justify-between  sm:justify-start sm:gap-6 lg:justify-evenly items-center p-4">
+  <section className="h-16 flex items-center justify-between sm:justify-start sm:gap-9 lg:justify-evenly p-4 border">
+  <div className="border shrink-0">
     <picture>
         <img src="src/assets/images/logo-dark.svg" alt="dbank logo" 
-          className=""
+          className=" h-8 w-auto block"
         />
     </picture>
+  </div>
 
-      <ul className="hidden sm:flex flex-row gap-3">
+      <ul className="hidden sm:flex sm:shrink min-w-0 overflow-hidden flex-row gap-3 border w-auto">
       {links.map((link) => (
       <li className="font-PublicSans text-NGray600">{link}</li>
       ))}
       
       </ul>
 
-      <span className="hidden sm:block ">
+      <span className="hidden  sm:flex  ">
       <DBankInviteButton/>
       </span>
 
