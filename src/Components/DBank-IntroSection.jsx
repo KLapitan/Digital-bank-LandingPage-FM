@@ -1,32 +1,39 @@
 const DBankIntro =({showLinks}) => {
 
 return(
-<main className="h-auto">
-<section className="h-screen relative overflow-hidden  ">
+<main className="h-auto ">
+    <section className="h-screen font-PublicSans ">   
 
-{/* bg and phones */}
-<div className="w-auto h-auto  ">
-<div className="h-80 scale-100 relative bg-[url('src/assets/images/bg-intro-mobile.svg')] md:bg-[url('src/assets/images/bg-intro-desktop.svg')] bg-no-repeat bg-cover bg-center ">
-</div>
+    {/* container of hero image and hero detail */}
+          <div className="h-screen  relative overflow-hidden lg:h-165 lg:bg-NGray100 z-40 ">
+                {/* large view */}
+                  <picture className=" hidden z-40 absolute lg:-top-51 lg:-right-40 lg:scale-85">
+                    <img src="src/assets/images/image-mockups.png" alt="mockup" className="phone" />
+                  </picture>
 
-{/* phone image */} 
-<picture>
-<img src="src/assets/images/image-mockups.png" alt="phones" className={`p-2 w-90 h-115 absolute -top-35 left-2 z-10 ${showLinks ? "hidden":"block"}`} />
-</picture> 
-
-</div>
-
-<div className="h-auto w-full  font-PublicSans text-center flex flex-col gap-4 mt-3 p-3">
-<h2 className="text-5xl font-light tracking-tight text-PBlue950">Next generation digital banking</h2>
-<p className="text-md p-2 tracking-tight leading-4 text-NGray600">Take your financial life online. Your Digitalbank account will be a one-stop-shop 
-  for spending, saving, budgeting, investing, and much more.
-
-  </p>
-  <button className="bg-linear-to-b from-PGreen500 to-PCyan400 text-NGray50 text-md font-bold rounded-full py-3 flex-none w-44 place-self-center">Request Invite</button>
-</div>
+                {/* small view */}
+                <picture className="lg:hidden z-40 absolute -top-38 ">
+                    <img src="src/assets/images/image-mockups.png" className="w-full h-129" alt="mockup"  />
+                  </picture>
 
 
-</section>
+                  {/* container of the phone to create the effect of phone passing through the section */}
+              <div className="h-screen flex flex-col lg:flex-row-reverse w-full  bg-NGray50  lg:h-143   lg:overflow-hidden">
+                   {/* bg-image of the phone  */}
+                     <div className="lg:w-3xl h-86 lg:h-screen bg-[url('src/assets/images/bg-intro-mobile.svg')] bg-no-repeat bg-cover lg:bg-[url('src/assets/images/bg-intro-desktop.svg')]  lg:bg-size-[135%] lg:bg-bottom-left  lg:overflow-hidden  border"></div>
+
+                      {/* details  */}
+                      <div className="w-auto h-auto flex flex-col  items-center gap-4 mt-5 lg:gap-8 lg:justify-center   lg:w-xl lg:-mr-10">
+                            <h2 className=" text-3xl w-75 border lg:text-5xl text-center font-light tracking-tight text-PBlue950 lg:text-left lg:w-100 lg:ml-10">Next generation digital banking</h2>
+
+                            <p className="text-center   text-md p-2 tracking-tight leading-5 text-NGray600 lg:text-left lg:w-95 lg:ml-8 ">Take your financial life online. Your Digitalbank account will be a one-stop-shop 
+                              for spending, saving, budgeting, investing, and much more.</p>  
+                      </div>
+
+                </div>  
+
+          </div>
+    </section>
 
 </main>
 )}
