@@ -1,0 +1,133 @@
+[33mcommit 93215128fc018235adaef9fa2d5ee6c3f537d725[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Tue May 5 18:45:02 2026 +0800
+
+    just commitng
+
+[33mcommit 5df67bd02974c6bb98264e82086027fe740a5089[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 2715254 7a34765
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Tue May 5 18:30:31 2026 +0800
+
+    chore: resolved merge conflicts
+
+[33mcommit 7a34765aa99440a02a1cc9a5ce509b3ddf192003[m[33m ([m[1;31morigin/feature/Intro-section[m[33m, [m[1;32mfeature/Intro-section[m[33m)[m
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Tue May 5 18:25:36 2026 +0800
+
+    pulled request from pc
+
+[33mcommit 2715254b4c51b5e816bc39d0e7b8bce209c08dd6[m
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Tue May 5 18:22:51 2026 +0800
+
+    pulled from pc
+
+[33mcommit 57eda71148296d6f9e420aedc63a398b4fda2047[m
+Merge: 94fc314 7cbd8f2
+Author: Karl Lapitan <145098322+KLapitan@users.noreply.github.com>
+Date:   Tue May 5 18:11:22 2026 +0800
+
+    Merge pull request #2 from KLapitan/feature/IntroUI
+    
+    revised ui on pc
+
+[33mcommit 7cbd8f23154f374a6a2bf6634604185b4fa50bd5[m[33m ([m[1;31morigin/feature/IntroUI[m[33m)[m
+Author: Karl Lapitan <karllapitan5@gmail.com>
+Date:   Tue May 5 18:05:33 2026 +0800
+
+    revised ui on pc
+
+[33mcommit a5221edb466a7151ee1b08acce1209350eb88095[m
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Tue May 5 16:13:43 2026 +0800
+
+    revised ui of intro
+
+[33mcommit 3a95dc0c1bbea9b22e60838235eb5dac3245bfb8[m
+Merge: 702289f 94fc314
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Tue May 5 15:03:11 2026 +0800
+
+    Merge branch 'main' into feature/Intro-section
+    get the updated main inside the introsection
+
+[33mcommit 94fc314dd5052ac1560c65239ab63371e742ef11[m[33m ([m[1;31morigin/feature/Footer-section[m[33m, [m[1;32mfeature/Footer-section[m[33m)[m
+Merge: e65f9c4 bf1fcd9
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Tue May 5 14:54:22 2026 +0800
+
+    revised the ui on footer
+
+[33mcommit bf1fcd9d34df8aa4728bcf80ea295df02471f3a9[m[33m ([m[1;31morigin/feature/Article-section[m[33m, [m[1;32mfeature/Article-section[m[33m)[m
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Mon May 4 17:23:15 2026 +0800
+
+    gap of the services edited
+
+[33mcommit e65f9c4185980185709041ed4c5dac2497d5b40d[m
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Mon May 4 17:20:33 2026 +0800
+
+    done ui from small to lg
+
+[33mcommit 181a3096d956395855bc64da5c881a3a191b5323[m
+Merge: 11cd45e 7c6e0c1
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Mon May 4 16:44:06 2026 +0800
+
+    done revising cards in small to large view
+
+[33mcommit 11cd45e2c9ed0a07ba29d9d36bab1cfa76a3d527[m
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Mon May 4 15:38:54 2026 +0800
+
+    done services and article section
+
+[33mcommit 702289f290ddbc8e7d7ad801eeaccc80d289afce[m
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Tue Apr 28 16:22:56 2026 +0800
+
+    phone view not yet done
+
+[33mcommit 7c6e0c1fa86ed47e6e6ffac77aecb19589bf3134[m
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Tue Apr 21 15:26:47 2026 +0800
+
+    footer don
+
+[33mcommit 997b8118e26ea6dd63e135d332be8aad4a8b58b5[m
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Tue Apr 21 14:20:06 2026 +0800
+
+    article done
+
+[33mcommit 989fae3cf95c734a42c042bd2eee1cf6b3e6f6ca[m[33m ([m[1;31morigin/feature/Services-section[m[33m)[m
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Mon Apr 20 15:17:11 2026 +0800
+
+    mobile-services ui done
+
+[33mcommit d2bbe7895377a60d4a09c766a370692ef1efe91b[m
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Tue Apr 14 16:09:21 2026 +0800
+
+    done nav and dropdown
+
+[33mcommit ec6baec1bbf795bc423a46310311eacdb89274f1[m
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Tue Apr 14 14:24:44 2026 +0800
+
+    Intro done
+
+[33mcommit ebf4061470be71b49eccfd30dda8f466820078fc[m
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Mon Apr 13 17:44:47 2026 +0800
+
+    intro-section created
+
+[33mcommit 467cd17e3b5590e71ab4f2c0c246cfe9f9157ef5[m
+Author: KLapitan <karllapitan5@gmail.com>
+Date:   Mon Apr 13 16:52:03 2026 +0800
+
+    First commit
