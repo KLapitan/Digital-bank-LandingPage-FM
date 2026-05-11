@@ -12,7 +12,7 @@ return(
 {/* picture of apps and log */}
 <div className="flex flex-col gap-5  lg:gap-12 lg:mb-3">
     <picture className="shrink-0">
-        <img src="src/assets/images/logo-light.svg" alt="logo-light"  className="mt-12 scale-120 ml-4 "/>
+        <img src="/images/logo-light.svg" alt="logo-light"  className="mt-12 scale-120 ml-4 "/>
     </picture>
 
 
