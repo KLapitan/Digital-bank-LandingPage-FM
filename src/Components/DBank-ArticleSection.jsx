@@ -1,6 +1,6 @@
 const DBanksArticle = () => {
 return (
-<section className="h-auto bg-NWhite font-PublicSans p-2 mb-8  md:shrink lg:flex lg:flex-col lg:justify-center lg:items-center  "> 
+<section id="blog" className="h-screen bg-NWhite font-PublicSans p-2 mb-8  md:shrink lg:flex lg:flex-col lg:justify-center lg:items-center  "> 
 
 <div className=" w-auto h-auto">
     <h2 className="w-full text-center text-3xl font-light mt-10 mb-10 lg:text-left lg:ml-2 2xl:-ml-6 ">Latest Articles </h2>

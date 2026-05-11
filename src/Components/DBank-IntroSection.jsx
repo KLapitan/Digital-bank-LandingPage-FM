@@ -3,7 +3,7 @@ const DBankIntro =() => {
 
 return(
 <main className="h-auto ">
-    <section className="h-auto font-PublicSans ">   
+    <section id="Home" className="h-auto font-PublicSans ">   
 
     {/* container of hero image and hero detail */}
           <div className="h-screen   relative overflow-hidden lg:h-165  lg:bg-NGray100 z-40 ">

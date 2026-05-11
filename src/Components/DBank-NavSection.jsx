@@ -17,8 +17,14 @@ return(
   </div>
 
       <ul className="hidden lg:flex sm:shrink min-w-0 overflow-hidden  flex-row gap-3  lg:gap-8 w-auto">
-      {links.map((link) => (
-      <li className="font-PublicSans text-NGray600">{link}</li>
+      {links.map((link ,index ) => (
+      <li key={index} className="font-PublicSans text-NGray600">
+      <a href={ link === "Contact" || link=== "Careers" ? "#footer" : `#${link.toLowerCase()}`}>
+      
+      {link}
+      
+      </a>
+      </li>
       ))}
       
       </ul>

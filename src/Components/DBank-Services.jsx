@@ -1,6 +1,6 @@
 const DBankSerivces =() => {
 return(
-<section className="h-auto p-2 bg-NGray100 flex flex-col items-center justify-center font-PublicSans  lg:-mt-5 ">
+<section id="about" className="h-auto p-2 bg-NGray100 flex flex-col items-center justify-center font-PublicSans  lg:-mt-5 ">
 
 <div className="lg:flex  lg:items-start lg:-ml-154 sm:mb-7">
   <div className=" flex flex-col gap-3 items-center w-auto mt-10  lg:gap-3 lg:items-start ">

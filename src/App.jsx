@@ -5,9 +5,9 @@ import DBankSerivces from "./Components/DBank-Services";
 import DBanksArticle from "./Components/DBank-ArticleSection";
 import DBankFooter from "./Components/DBank-Footer";
 
-const DBLinks =["Home", "About" , "Contact", "Blog", "Careers"]
+const DBLinks =["Home", "About" , "Blog","Contact", "Careers"]
 
-const FooterLinks =["About Us", "Contact" , "Blog","Careers", "Support" , "Privacy Policy"]
+const FooterLinks =["About Us","Blog", "Contact" , "Careers", "Support" , "Privacy Policy"]
 
 const SocialLinks = [
 {

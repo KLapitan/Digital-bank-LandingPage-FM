@@ -3,7 +3,7 @@ const DBankFooter = ({footerLinks,social}) => {
 
 return(
 <footer className="h-auto ">
-  <section className="h-auto bg-PBlue950 flex flex-col items-center justify-center gap-6 font-PublicSans  lg:flex-row lg:justify-between ">
+  <section id="footer"   className="h-auto bg-PBlue950 flex flex-col items-center justify-center gap-6 font-PublicSans  lg:flex-row lg:justify-between ">
 
 {/* holding picture and link */}
 <div className="w-auto lg:flex lg:flex-row lg:gap-30 lg:ml-50 lg:items-start  ">
