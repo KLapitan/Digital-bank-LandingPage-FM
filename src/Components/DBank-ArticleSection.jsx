@@ -1,9 +1,9 @@
 const DBanksArticle = () => {
 return (
-<section id="blog" className="h-auto lg:h-screen bg-NWhite font-PublicSans p-2 mb-8  md:shrink lg:flex lg:flex-col lg:justify-center lg:items-center  border-5"> 
+<section id="blog" className="h-auto lg:h-200 bg-NWhite font-PublicSans p-2 mb-8 lg:mb-0   md:shrink lg:flex lg:flex-col lg:justify-center lg:items-center  "> 
 
 <div className=" w-auto h-auto">
-    <h2 className="w-full text-center text-3xl font-light mt-10 mb-10 lg:text-left lg:ml-2 2xl:-ml-6 ">Latest Articles </h2>
+    <h2 className="w-full text-center text-3xl font-light mt-10 mb-10 lg:text-left lg:ml-2 2xl:-ml-6  lg:mt-0">Latest Articles </h2>
 
 {/* #1 */}
 {/* large view row container */}
