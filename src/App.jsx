@@ -12,21 +12,21 @@ const FooterLinks =["About Us","Blog", "Contact" , "Careers", "Support" , "Priva
 const SocialLinks = [
 {
 id:0, 
-src:"src/assets/images/icon-facebook.svg", alt:"facebook",
+src:"/images/icon-facebook.svg", alt:"facebook",
 },
 {
 id:0, 
-src:"src/assets/images/icon-youtube.svg", alt:"youtube",
+src:"/images/icon-youtube.svg", alt:"youtube",
 },{
 id:0, 
-src:"src/assets/images/icon-twitter.svg", alt:"twitter",
+src:"/images/icon-twitter.svg", alt:"twitter",
 },{
 id:0, 
-src:"src/assets/images/icon-pinterest.svg", alt:"pinterest",
+src:"/images/icon-pinterest.svg", alt:"pinterest",
 },
 {
 id:0, 
-src:"src/assets/images/icon-instagram.svg", alt:"instagram",
+src:"/images/icon-instagram.svg", alt:"instagram",
 },
 
 ]

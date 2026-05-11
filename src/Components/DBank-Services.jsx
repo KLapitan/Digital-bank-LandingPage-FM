@@ -17,7 +17,7 @@ return(
 
     <div className=" flex flex-col gap-3 w-auto items-center mt-8 lg:items-start ">
       <picture>
-        <img src="src/assets/images/icon-online.svg" alt="online bankng" className="mb-8 "  />
+        <img src="/images/icon-online.svg" alt="online bankng" className="mb-8 "  />
       </picture>
 
      <span className="text-center text-xl lg:ml-1">Online Banking</span>
@@ -31,7 +31,7 @@ return(
 {/* simple budegeting */}
     <div className=" flex flex-col items-center gap-3 mt-8 lg:items-start">
         <picture>
-          <img src="src/assets/images/icon-budgeting.svg" alt="bugeting" className="mb-8"  />
+          <img src="/images/icon-budgeting.svg" alt="bugeting" className="mb-8"  />
  
         </picture>
 
@@ -50,7 +50,7 @@ return(
     {/* onboarding */}
     <div className=" flex flex-col items-center gap-3 mt-8 lg:items-start">
       <picture>
-      <img src="src/assets/images/icon-onboarding.svg" alt="onboarding" className="mb-8" />
+      <img src="/images/icon-onboarding.svg" alt="onboarding" className="mb-8" />
       </picture>
 
     <span className="text-center text-xl">
@@ -66,7 +66,7 @@ return(
     <div  className="flex flex-col items-center gap-3 mt-8 mb-10 lg:items-start">
 
       <picture>
-        <img src="src/assets/images/icon-api.svg" alt="api"
+        <img src="/images/icon-api.svg" alt="api"
         className="mb-8"
          />
       </picture>

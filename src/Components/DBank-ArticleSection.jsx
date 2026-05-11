@@ -15,7 +15,7 @@ return (
 
         <div className="w-full h-60  rounded-t-lg lg:rounded-t-md">
           <picture>
-           <img src="src/assets/images/image-currency.jpg" alt="money"   className=" w-full h-full object-cover rounded-t-lg lg:rounded-t-md " />
+           <img src="/images/image-currency.jpg" alt="money"   className=" w-full h-full object-cover rounded-t-lg lg:rounded-t-md " />
           </picture>
         </div>
         <div className="flex flex-col gap-3 ml-6 p-2 lg:ml-2">
@@ -41,7 +41,7 @@ return (
 
         <div className="w-full h-60  rounded-t-lg lg:rounded-t-md">
           <picture>
-           <img src="src/assets/images/image-restaurant.jpg" alt="resturant"   className=" w-full h-full object-cover rounded-t-lg lg:rounded-t-md " />
+           <img src="/images/image-restaurant.jpg" alt="resturant"   className=" w-full h-full object-cover rounded-t-lg lg:rounded-t-md " />
           </picture>
         </div>
         <div className="flex flex-col gap-3 ml-6 p-2 lg:ml-2">
@@ -67,7 +67,7 @@ return (
 <div className="w-auto h-auto rounded-lg shadow  mt-9 lg:w-68">
         <div className="w-full h-60  rounded-t-lg lg:rounded-t-md">
           <picture>
-           <img src="src/assets/images/image-plane.jpg" alt="plane"  className=" w-full h-full object-cover rounded-t-lg lg:rounded-t-md " />
+           <img src="/images/image-plane.jpg" alt="plane"  className=" w-full h-full object-cover rounded-t-lg lg:rounded-t-md " />
           </picture>
         </div>
         <div className="flex flex-col gap-3 ml-6 p-2 lg:ml-2">
@@ -87,7 +87,7 @@ return (
     <div className="w-auto h-auto rounded-lg shadow  mt-9 lg:w-68">
         <div className="w-full h-60  rounded-t-lg lg:rounded-t-md">
           <picture>
-           <img src="src/assets/images/image-confetti.jpg" alt="confetti"  className=" w-full h-full object-cover rounded-t-lg lg:rounded-t-md " />
+           <img src="/images/image-confetti.jpg" alt="confetti"  className=" w-full h-full object-cover rounded-t-lg lg:rounded-t-md " />
           </picture>
         </div>
         <div className="flex flex-col gap-3 ml-6 p-2 lg:ml-2">
