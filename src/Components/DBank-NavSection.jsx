@@ -7,8 +7,8 @@ const DBankNav = ({links ,showLinks ,onOpen}) => {
 return(
 <>
 <nav className="h-auto relative z-50  ">
-  <section className="h-16 flex items-center justify-between sm:justify-start sm:gap-9 lg:justify-evenly p-4 border">
-  <div className="border shrink-0">
+  <section className="h-16 flex items-center justify-between sm:justify-between sm:gap-9  lg:justify-evenly p-4 border">
+  <div className=" shrink-0">
     <picture>
         <img src="src/assets/images/logo-dark.svg" alt="dbank logo" 
           className=" h-8 w-auto block"
@@ -16,20 +16,20 @@ return(
     </picture>
   </div>
 
-      <ul className="hidden sm:flex sm:shrink min-w-0 overflow-hidden flex-row gap-3 border w-auto">
+      <ul className="hidden lg:flex sm:shrink min-w-0 overflow-hidden  flex-row gap-3  lg:gap-8 w-auto">
       {links.map((link) => (
       <li className="font-PublicSans text-NGray600">{link}</li>
       ))}
       
       </ul>
 
-      <span className="hidden  sm:flex  ">
+      <span className="hidden  sm:flex  sm:border sm:-mr-60  lg:mr-0 ">
       <DBankInviteButton/>
       </span>
 
 
 
-<button onClick={onOpen} className="sm:hidden md:hidden lg:hidden">
+<button onClick={onOpen} className=" lg:hidden">
     <picture>
         <img src={`${showLinks ? "src/assets/images/icon-close.svg": "src/assets/images/icon-hamburger.svg"}`} alt="hamburger" />
     </picture>
