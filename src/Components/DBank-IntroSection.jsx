@@ -3,10 +3,10 @@ const DBankIntro =() => {
 
 return(
 <main className="h-auto ">
-    <section className="h-screen font-PublicSans ">   
+    <section className="h-auto font-PublicSans ">   
 
     {/* container of hero image and hero detail */}
-          <div className="h-screen   relative overflow-hidden lg:h-155 lg:bg-NGray100 z-40 ">
+          <div className="h-screen   relative overflow-hidden lg:h-165  lg:bg-NGray100 z-40 ">
                 {/* large view */}
                   <picture className="hidden lg:block z-50 absolute lg:-top-56 lg:-right-40 lg:scale-85">
                     <img src="src/assets/images/image-mockups.png" alt="mockup" className="phone" />
