@@ -1,12 +1,12 @@
 import DBankInviteButton from "./DBank-Button";
-const DBankIntro =({showLinks}) => {
+const DBankIntro =() => {
 
 return(
 <main className="h-auto ">
     <section className="h-auto font-PublicSans  ">   
 
     {/* container of hero image and hero detail */}
-          <div className="h-screen border  relative overflow-hidden lg:h-155 lg:bg-NGray100 z-40 ">
+          <div className="h-screen   relative overflow-hidden lg:h-155 lg:bg-NGray100 z-40 ">
                 {/* large view */}
                   <picture className="hidden lg:block z-50 absolute lg:-top-56 lg:-right-40 lg:scale-85">
                     <img src="src/assets/images/image-mockups.png" alt="mockup" className="phone" />
@@ -19,7 +19,7 @@ return(
 
 
                   {/* container of the phone to create the effect of phone passing through the section */}
-              <div className="h-screen  border flex flex-col lg:flex-row-reverse md:gap-2   w-full  bg-NGray50  lg:h-143  lg:overflow-hidden">
+              <div className="h-screen  flex flex-col lg:flex-row-reverse md:gap-2   w-full  bg-NGray50  lg:h-143  lg:overflow-hidden">
                    {/* bg-image of the phone  */}
                      <div className="lg:w-3xl h-80  lg:h-screen bg-size-[100%] bg-center bg-[url('src/assets/images/bg-intro-mobile.svg')] bg-no-repeat md:bg-size-[100%] md:bg-center lg:bg-[url('src/assets/images/bg-intro-desktop.svg')]  lg:bg-size-[190%] lg:bg-bottom-left  lg:overflow-hidden    "></div>
 
