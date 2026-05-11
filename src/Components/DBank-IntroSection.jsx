@@ -21,7 +21,7 @@ return(
                   {/* container of the phone to create the effect of phone passing through the section */}
               <div className="h-screen  flex flex-col lg:flex-row-reverse md:gap-2   w-full  bg-NGray50  lg:h-142  lg:overflow-hidden">
                    {/* bg-image of the phone  */}
-                     <div className="lg:w-3xl h-80  lg:h-screen bg-size-[100%] bg-center bg-[url('src/assets/images/bg-intro-mobile.svg')] bg-no-repeat md:bg-size-[100%] md:bg-center lg:bg-[url('src/assets/images/bg-intro-desktop.svg')]  lg:bg-size-[190%] lg:bg-bottom-left  lg:overflow-hidden    "></div>
+                     <div className="lg:w-3xl h-80  lg:h-screen bg-size-[100%] bg-center bg-[url('src/assets/images/bg-intro-mobile.svg')] bg-no-repeat md:bg-size-[100%] md:bg-center lg:bg-[url('src/assets/images/bg-intro-desktop.svg')]  lg:bg-size-[190%] 2xl:bg-size-[195%] lg:bg-bottom-left  lg:overflow-hidden    "></div>
 
                       {/* details  */}
                       <div className="w-auto h-auto  flex flex-col   items-center gap-4 mt-5  lg:gap-6 lg:justify-center lg:items-start   lg:w-lg  2xl:w-xl  2xl:gap-5  lg:mr-2 ">

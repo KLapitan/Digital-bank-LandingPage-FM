@@ -7,7 +7,7 @@ const DBankNav = ({links ,showLinks ,onOpen}) => {
 return(
 <>
 <nav className="h-auto relative z-50  ">
-  <section className="h-20 flex items-center justify-between sm:justify-between sm:gap-9  lg:justify-evenly p-4 ">
+  <section className="h-19 flex items-center justify-between sm:justify-between sm:gap-9  lg:justify-evenly p-4 ">
   <div className=" shrink-0">
     <picture>
         <img src="src/assets/images/logo-dark.svg" alt="dbank logo" 
