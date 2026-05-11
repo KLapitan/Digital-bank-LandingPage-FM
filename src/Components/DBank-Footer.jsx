@@ -1,3 +1,4 @@
+import DBankInviteButton from "./DBank-Button"
 const DBankFooter = ({footerLinks,social}) => {
 
 return(
@@ -50,7 +51,7 @@ return(
 <div className="flex flex-col  gap-4 text-center  lg:text-right lg:gap-7 lg:mr-50  lg:mt-10">
 
   <div >
-    <button className="bg-linear-to-b from-PGreen500 to-PCyan400 text-NGray50 px-8 py-3 rounded-full text-xs font-PublicSans ">Request Invite</button>
+  <DBankInviteButton >Request Invite</DBankInviteButton>
   </div>
   
      <span className="text-xs tracking-wide text-gray-400 text-center -mt-1 mb-10">

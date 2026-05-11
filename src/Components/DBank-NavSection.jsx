@@ -1,13 +1,13 @@
 
 import DBankModal from "./DBank-LinkModal"
-import DBankInviteButton from "./DBank-RequestButton"
+import DBankInviteButton from "./DBank-Button"
 const DBankNav = ({links ,showLinks ,onOpen}) => {
 
 
 return(
 <>
 <nav className="h-auto relative z-50  ">
-  <section className="h-16 flex items-center justify-between sm:justify-between sm:gap-9  lg:justify-evenly p-4 border">
+  <section className="h-20 flex items-center justify-between sm:justify-between sm:gap-9  lg:justify-evenly p-4 ">
   <div className=" shrink-0">
     <picture>
         <img src="src/assets/images/logo-dark.svg" alt="dbank logo" 
@@ -23,8 +23,8 @@ return(
       
       </ul>
 
-      <span className="hidden  sm:flex  sm:border sm:-mr-60  lg:mr-0 ">
-      <DBankInviteButton/>
+      <span className="hidden  sm:flex   sm:-mr-60  lg:mr-0 ">
+      <DBankInviteButton className="hover:bg-linear-to-b hover:from-PGreen500/80 hover:to-PCyan400/80 ">Request Invite</DBankInviteButton>
       </span>
 
 
