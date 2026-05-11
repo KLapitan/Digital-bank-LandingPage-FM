@@ -37,7 +37,7 @@ return(
 
 <button onClick={onOpen} className=" lg:hidden">
     <picture>
-        <img src={`${showLinks ? "src/assets/images/icon-close.svg": "src/assets/images/icon-hamburger.svg"}`} alt="hamburger" />
+        <img src={`${showLinks ? "/images/icon-close.svg": "/images/icon-hamburger.svg"}`} alt="hamburger" />
     </picture>
 </button>
 

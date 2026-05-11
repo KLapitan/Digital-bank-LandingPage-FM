@@ -2,7 +2,7 @@ import DBankInviteButton from "./DBank-Button"
 const DBankFooter = ({footerLinks,social}) => {
 
 return(
-<footer className="h-auto ">
+<footer className="h-auto border-5 ">
   <section id="footer"   className="h-auto bg-PBlue950 flex flex-col items-center justify-center gap-6 font-PublicSans  lg:flex-row lg:justify-between ">
 
 {/* holding picture and link */}

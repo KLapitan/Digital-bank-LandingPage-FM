@@ -46,7 +46,7 @@ return(
 <DBankIntro showLinks={showLinks}/>
 
 <DBankSerivces/>
-<DBanksArticle/>
+ <DBanksArticle/> 
 <DBankFooter social={SocialLinks} footerLinks={FooterLinks}/>
 </>
 
