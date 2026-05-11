@@ -10,7 +10,7 @@ return(
   <section className="h-19 flex items-center justify-between sm:justify-between sm:gap-9  lg:justify-evenly p-4 ">
   <div className=" shrink-0">
     <picture>
-        <img src="src/assets/images/logo-dark.svg" alt="dbank logo" 
+        <img src="/images/logo-dark.svg" alt="dbank logo" 
           className=" h-8 w-auto block"
         />
     </picture>
